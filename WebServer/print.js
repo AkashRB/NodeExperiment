@@ -1,6 +1,6 @@
 /** 
 * @author:Akash RB
-* time:08-June-2017 2:54 PM
+* Time:08-June-2017 2:54 PM
 *@function:printRandom
 *It logs the some strings
 */
