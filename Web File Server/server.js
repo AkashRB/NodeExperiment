@@ -36,7 +36,7 @@ function onResquest(request, response) {
         //specifies that it is sending a HTML file back
 
         response.writeHead(200, { "Content-Type": "text/html" });
-        //
+        
         fs.createReadStream("./Web File Server/index.html").pipe(response);
     }
     else {
