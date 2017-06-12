@@ -20,9 +20,9 @@ console.log("-------Waiting for request-------");
 function writefile(request, response) {
     //Date objects
     var date = new Date();
-    var currentHours = date.getHours() - 12;
+    var currentHours = date.getHours();
     var minutes = date.getMinutes();
-    var time = currentHours + ":" + minutes
+    var time = currentHours + ":" + minutes 
     console.log("Hours: ", time);
     console.log("----Request Received---");
     //.writeHead sets the header part of the response object.First argument is status code i,e. 200->Ok,404->Not found etc.Second argument is Context-type
